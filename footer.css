@@ -1,0 +1,59 @@
+.footer {
+  padding: 200px 20px 25px 20px; }
+  @media (max-width: 600px) {
+    .footer {
+      padding-top: 100px; } }
+  .footer .hidden {
+    opacity: 0;
+    transition: all 1s; }
+  .footer .show {
+    opacity: 1; }
+  .footer .footerDiv {
+    padding-top: 15px;
+    box-shadow: rgba(87, 87, 87, 0.336) 0px 50px 100px -20px, rgba(102, 102, 102, 0.349) 0px 30px 60px -30px; }
+    .footer .footerDiv .footerDivHeading {
+      display: flex;
+      justify-content: center; }
+    .footer .footerDiv .footerDivImages {
+      padding: 15px 0px;
+      display: flex;
+      justify-content: center; }
+      .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage {
+        max-width: 150px;
+        max-height: 150px; }
+        @media (max-width: 600px) {
+          .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage {
+            max-width: 100px;
+            max-height: 100px; } }
+        @media (max-width: 425px) {
+          .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage {
+            max-width: 75px;
+            max-height: 75px; } }
+        @media (max-width: 340px) {
+          .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage {
+            max-width: 65px;
+            max-height: 65px; } }
+      .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage_size {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 31px; }
+        @media (max-width: 600px) {
+          .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage_size {
+            max-width: 65px;
+            max-height: 65px;
+            margin-top: 21px; } }
+        @media (max-width: 425px) {
+          .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage_size {
+            max-width: 47px;
+            max-height: 47px;
+            margin-top: 16px; } }
+        @media (max-width: 340px) {
+          .footer .footerDiv .footerDivImages .footerDivImages__link .footerDivImages__linkImage_size {
+            max-width: 40px;
+            max-height: 40px; } }
+      .footer .footerDiv .footerDivImages .footerDivImages__link_position {
+        display: flex;
+        align-items: center;
+        margin: 0px 25px; }
+
+/*# sourceMappingURL=footer.css.map */

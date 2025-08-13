@@ -1,0 +1,79 @@
+@import "var.scss";
+
+.sectionPortfolio {
+    padding: 0px 20px;
+
+    .hidden {
+        opacity: 0;
+        transition: all 3s;
+    }
+
+    .show {
+        opacity: 1;
+    }
+
+    .sectionPortfolioContainer {
+        box-shadow: rgba(87, 87, 87, 0.336) 0px 50px 100px -20px, rgba(102, 102, 102, 0.349) 0px 30px 60px -30px;
+
+        .sectionPortfolioContainerContent__heading {
+            margin: 10px 0px;
+            text-align: center;
+        }
+
+        .sectionPortfolioContainerContentGrid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+
+            @media (max-width: 600px) {
+                    min-height: 75%;
+            }
+
+            .hidden {
+                opacity: 0;
+                transition: all 5s;
+            }
+
+            .show {
+                opacity: 1;
+            }
+
+            .sectionPortfolioContainerContentPicturesTop {
+                display: flex;
+                justify-content: space-evenly;
+                align-self: center;
+
+                .portfolioImageOne {
+                    max-width: 30%;
+                    max-height: 75%;
+                }
+
+                .portfolioImageTwo {
+                    max-width: 45%;
+                    max-height: 75%;
+                }
+            }
+
+            .sectionPortfolioContainerContentPicturesBottom {
+                display: flex;
+                justify-content: space-evenly;
+                align-self: center;
+
+                .portfolioImageThree {
+                    max-width: 30%;
+                    max-height: 75%;
+                }
+
+                .portfolioImageFour {
+                    max-width: 30%;
+                    max-height: 75%;
+                }
+
+                .portfolioImageFive {
+                    max-width: 30%;
+                    max-height: 75%;
+                }
+            }
+        }
+    }
+}

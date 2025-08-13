@@ -1,0 +1,23 @@
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "var.scss";
+@import "section_Portfolio.scss";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: $textcolor;
+}
+
+.body {
+    min-height: 1500px;
+            background-image: linear-gradient(-45deg,  #000000);
+    .bodyDiv {
+        min-height: 911px;
+    }
+
+        @media (max-width: 600px) { 
+        max-height: 850px;
+    }
+}

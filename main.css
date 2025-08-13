@@ -1,0 +1,53 @@
+.main {
+  padding: 95px 20px 100px 20px; }
+  @media (max-width: 600px) {
+    .main {
+      padding-top: 55px; } }
+  .main .hidden {
+    opacity: 0;
+    transition: all 1s; }
+  .main .show {
+    opacity: 1; }
+  .main .mainDiv {
+    padding: 10px 20px;
+    box-shadow: rgba(87, 87, 87, 0.336) 0px 50px 100px -20px, rgba(102, 102, 102, 0.349) 0px 30px 60px -30px; }
+    .main .mainDiv .mainPfp {
+      display: flex;
+      justify-content: center; }
+      .main .mainDiv .mainPfp .mainPfp__image {
+        padding: 5px;
+        border: 2px solid white;
+        border-radius: 50%;
+        max-width: 150px; }
+    .main .mainDiv .mainInfo {
+      background: none;
+      margin-top: 10px;
+      display: flex;
+      justify-content: center; }
+      .main .mainDiv .mainInfo .mainInfoList {
+        text-align: center;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        list-style: none;
+        max-width: fit-content;
+        font-weight: bold; }
+        @media (max-width: 600px) {
+          .main .mainDiv .mainInfo .mainInfoList {
+            max-width: 320px; } }
+        .main .mainDiv .mainInfo .mainInfoList .mainInfoList__fandomList {
+          max-width: 500px;
+          display: grid;
+          align-items: center;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 1fr;
+          padding-left: 0px; }
+          @media (max-width: 600px) {
+            .main .mainDiv .mainInfo .mainInfoList .mainInfoList__fandomList {
+              grid-template-columns: 1fr;
+              grid-row: 1fr;
+              max-width: 321px; } }
+          .main .mainDiv .mainInfo .mainInfoList .mainInfoList__fandomList .mainInfoList__fandomListContainer {
+            margin-right: 10px;
+            max-width: 320px; }
+
+/*# sourceMappingURL=main.css.map */
